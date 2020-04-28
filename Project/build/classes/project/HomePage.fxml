@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="455.0" style="-fx-background-color: #72BBD1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.HomePageController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="46.0" prefWidth="455.0" style="-fx-text-alignment: center; -fx-background-color: #0CBBC4;" text="Home Page" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="78.0" style="-fx-font-weight: bold;" text="Welcome to Royal Hotel" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Serif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="butt" layoutX="99.0" layoutY="149.0" mnemonicParsing="false" onAction="#login" prefHeight="46.0" prefWidth="257.0" style="-fx-background-color: #86AEB9; -fx-background-radius: 50;" text="Open Login Page" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

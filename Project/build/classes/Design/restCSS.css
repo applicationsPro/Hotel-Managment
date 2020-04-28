@@ -1,0 +1,13 @@
+#slideRight{
+    -fx-background-color: #333;
+    
+}
+
+#slideRight Button{
+-fx-background-radius: 50px;    
+}
+#st{
+    -fx-background-color: cyan;
+}
+#meals{
+}

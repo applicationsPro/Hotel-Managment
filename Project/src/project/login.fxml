@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="581.0" style="-fx-background-color: #72BBD1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.LoginController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="46.0" prefWidth="581.0" style="-fx-text-alignment: center; -fx-background-color: #0CBBC4;" text="Login Page" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="119.0" style="-fx-font-weight: bold;" text="Username" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Serif Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="195.0" style="-fx-font-weight: bold;" text="Password" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Serif Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername" layoutX="277.0" layoutY="111.0" prefHeight="41.0" prefWidth="184.0" promptText="Enter..." style="-fx-background-color: #7ADDCE; -fx-background-radius: 40;" />
+      <PasswordField fx:id="txtPassword" layoutX="277.0" layoutY="185.0" prefHeight="39.0" prefWidth="184.0" promptText="Enter..." style="-fx-background-color: #7ADDCE; -fx-background-radius: 40;" />
+      <Button fx:id="login" layoutX="335.0" layoutY="262.0" mnemonicParsing="false" onAction="#login" prefHeight="39.0" prefWidth="184.0" style="-fx-background-color: #86AEB9; -fx-background-radius: 50;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="107.0" layoutY="262.0" mnemonicParsing="false" onAction="#register" prefHeight="39.0" prefWidth="184.0" style="-fx-background-color: #86AEB9; -fx-background-radius: 50;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblout" layoutX="154.0" layoutY="321.0" prefHeight="39.0" prefWidth="288.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
